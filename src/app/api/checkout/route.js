@@ -17,11 +17,11 @@ export async function POST() {
       {
         amount: {
           currency_code: "USD",
-          value: "1.00",
+          value: "2.00",
           breakdown: {
             item_total: {
               currency_code: "USD",
-              value: "1.00",
+              value: "2.00",
             },
           },
         },
@@ -32,7 +32,7 @@ export async function POST() {
             quantity: "1",
             unit_amount: {
               currency_code: "USD",
-              value: "0.50",
+              value: "1.00",
             },
           },
           {
@@ -41,7 +41,7 @@ export async function POST() {
             quantity: "1",
             unit_amount: {
               currency_code: "USD",
-              value: "0.50",
+              value: "1.00",
             },
           },
         ],
